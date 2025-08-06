@@ -65,4 +65,60 @@ The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts 
 ```bash
 git clone https://github.com/<your-username>/resume_screening_app.git
 cd resume_screening_app
+```
+
+### 2. Backend Setup (FastAPI)
+Create virtual environment
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate      # (Linux/Mac)
+venv\Scripts\activate         # (Windows)
+```
+
+Install dependencies
+```bash
+pip install fastapi uvicorn sqlalchemy PyPDF2 python-docx pydantic
+```
+
+Run the backend server
+```bash
+uvicorn backend.main:app --reload
+```
+Server will start at:
+http://127.0.0.1:8000
+
+---
+
+### 3. Frontend Setup (React + Vite)
+Install dependencies
+```bash
+cd ../frontend
+npm install
+```
+
+Start the React dev server
+```bash
+npm run dev
+```
+Frontend will run at:
+http://localhost:5173 (default Vite port)
+---
+
+🎯 Usage
+1. Start backend (uvicorn backend.main:app --reload)
+
+2. Start frontend (npm run dev)
+
+3. Open http://localhost:5173
+
+4. Upload a resume → View predicted category → Edit/Delete records
+---
+
+
+
+
+
+
+
 
