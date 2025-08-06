@@ -2,19 +2,6 @@
 
 A **full-stack resume screening application** built with **React (Vite)** on the frontend and **FastAPI (Python)** on the backend.  
 The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts the job category using a trained ML model (TF-IDF), and stores results in a database with full CRUD operations.
-
----
-
-## 🚀 Features
-
-- **Upload resumes (TXT, PDF, DOCX)** and predict job categories  
-- **FastAPI backend with REST API endpoints** for prediction and CRUD  
-- **SQLite database using SQLAlchemy ORM** to store predictions  
-- **React (Vite) frontend with Axios** to interact with backend  
-- **Bootstrap + Tailwind CSS** for responsive UI  
-- **Edit/Delete predictions directly from dashboard**  
-- **ML Model Integration** using a pre-trained TF-IDF model (`models/tfidf.pkl`)  
-
 ---
 ## 📸 Project Screenshots
 
@@ -38,6 +25,18 @@ The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts 
 </table>
 
 </div>
+
+---
+
+## 🚀 Features
+
+- **Upload resumes (TXT, PDF, DOCX)** and predict job categories  
+- **FastAPI backend with REST API endpoints** for prediction and CRUD  
+- **SQLite database using SQLAlchemy ORM** to store predictions  
+- **React (Vite) frontend with Axios** to interact with backend  
+- **Bootstrap + Tailwind CSS** for responsive UI  
+- **Edit/Delete predictions directly from dashboard**  
+- **ML Model Integration** using a pre-trained TF-IDF model (`models/tfidf.pkl`)  
 
 ---
 
