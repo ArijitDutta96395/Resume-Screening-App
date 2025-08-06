@@ -2,7 +2,9 @@
 
 A **full-stack resume screening application** built with **React (Vite)** on the frontend and **FastAPI (Python)** on the backend.  
 The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts the job category using a trained ML model (TF-IDF), and stores results in a database with full CRUD operations.
+
 ---
+
 ## 📸 Project Screenshots
 
 <div align="center">
