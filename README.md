@@ -16,6 +16,20 @@ The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts 
 - **ML Model Integration** using a pre-trained TF-IDF model (`models/tfidf.pkl`)  
 
 ---
+## 📸 Project Screenshots
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic1.png" alt="Dashboard" width="200px" style="margin: 0 10px;" />
+<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic2.png" alt="Upload Resume" width="200px" style="margin: 0 10px;" />
+<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic3.png" alt="Course Recommendations" width="200px" style="margin: 0 10px;" />
+
+</div>
+
+<p align="center">
+<em>From left to right: Dashboard view, Resume upload, Course recommendations features</em>
+</p>
+---
 
 ## 🛠 Tech Stack
 
