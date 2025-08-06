@@ -132,8 +132,8 @@ This project is open-source and available under the MIT License.
 ---
 
 Author: Arijit Dutta
--Email: arijitdutta963952gmail.com
--GitHub: (https://github.com/ArijitDutta96395)
+- Email: arijitdutta963952gmail.com
+- GitHub: (https://github.com/ArijitDutta96395)
 
 
 
