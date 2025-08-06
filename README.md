@@ -114,7 +114,26 @@ http://localhost:5173 (default Vite port)
 
 4. Upload a resume → View predicted category → Edit/Delete records
 ---
+🧩 Future Enhancements
+-Resume parsing to extract name, email, skills, and experience
 
+-Candidate scoring and ranking
+
+-Job description matching
+
+-Bulk upload support
+
+-Analytics dashboard with charts
+
+-Mini ATS features (status tracking, notes)
+---
+📜 License
+This project is open-source and available under the MIT License.
+---
+
+Author: Arijit Dutta
+Email: arijitdutta963952gmail.com
+GitHub: (https://github.com/ArijitDutta96395)
 
 
 
