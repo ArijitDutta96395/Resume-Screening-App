@@ -20,15 +20,25 @@ The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic1.png" alt="Dashboard" width="200px" style="margin: 0 10px;" />
-<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic2.png" alt="Upload Resume" width="200px" style="margin: 0 10px;" />
-<img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic3.png" alt="Course Recommendations" width="200px" style="margin: 0 10px;" />
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic1.png" alt="Dashboard" width="200px" /><br/>
+      <b>Dashboard</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic2.png" alt="Upload Resume" width="200px" /><br/>
+      <b>Upload Resume</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/ArijitDutta96395/Resume-Screening-App/main/pic3.png" alt="Course Recommendations" width="200px" /><br/>
+      <b>Course Recommendations</b>
+    </td>
+  </tr>
+</table>
 
 </div>
 
-<p align="center">
-<em>From left to right: Dashboard view, Resume upload, Course recommendations features</em>
-</p>
 ---
 
 ## 🛠 Tech Stack
