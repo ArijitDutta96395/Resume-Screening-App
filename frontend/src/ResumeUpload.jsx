@@ -26,10 +26,11 @@ function ResumeUpload() {
   };
 
   return (
-    <div
-      className="bg-primary text-white p-4 rounded-4 shadow-lg"
-      style={{ width: "100%", maxWidth: "400px" }}
-    >
+    <div className="d-flex justify-content-center align-items-start min-vh-100 pt-5">
+      <div
+        className="bg-primary text-white p-4 rounded-4 shadow-lg mt-4"
+        style={{ width: "100%", maxWidth: "400px" }}
+      >
       <h1 className="text-center mb-3">
         <i className="bi bi-cpu me-2"></i>
         Resume Screening App
@@ -70,9 +71,41 @@ function ResumeUpload() {
         </div>
       )}
 
-      <footer className="mt-4 text-center small">
-        © 2025 Resume Screening Tool
+      <footer className="mt-5 pt-4 border-top border-light">
+        <div className="row text-center">
+          <div className="col-12 mb-3">
+            <h6 className="fw-bold mb-2">
+              <i className="bi bi-code-slash me-2"></i>
+              Developed by
+            </h6>
+            <p className="mb-1">Arijit Dutta</p>
+            <p className="small mb-0">Full Stack Developer</p>
+          </div>
+          <div className="col-12 mb-3">
+            <div className="d-flex justify-content-center gap-3">
+              <a href="https://github.com/ArijitDutta96395" className="text-white" target="_blank" rel="noopener noreferrer">
+                <i className="bi bi-github fs-5"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/arijitduttaa1" className="text-white" target="_blank" rel="noopener noreferrer">
+                <i className="bi bi-linkedin fs-5"></i>
+              </a>
+              <a href="mailto:arijitdutta96395@gmail.com" className="text-white">
+                <i className="bi bi-envelope fs-5"></i>
+              </a>
+            </div>
+          </div>
+          <div className="col-12">
+            <p className="small mb-1">
+              <i className="bi bi-tools me-2"></i>
+              Built with React, FastAPI, and ML
+            </p>
+            <p className="small mb-0">
+              © 2025 Resume Screening Tool | All Rights Reserved
+            </p>
+          </div>
+        </div>
       </footer>
+      </div>
     </div>
   );
 }
