@@ -37,26 +37,24 @@ The app allows users to upload resumes (TXT, PDF, DOCX), automatically predicts 
 ---
 
 ## 📂 Project Structure
-resume_screening_app/
-│
-├── backend/
-│ ├── main.py # FastAPI app entry point
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic schemas
-│ ├── crud.py # Database CRUD operations
-│ ├── database.py # DB connection setup
-│ ├── ml_model.py # Category prediction function
-│ └── models/
-│ └── tfidf.pkl # Pre-trained TF-IDF model
-│
-├── frontend/
-│ ├── src/
-│ │ ├── App.jsx # Root React component
-│ │ ├── ResumeUpload.jsx # Resume upload component
-│ │ └── index.css # Global styles
-│ └── package.json # Frontend dependencies
-│
-└── README.md # Project documentation
+- **resume_screening_app/**
+  - **backend/**
+    - `main.py` – FastAPI app entry point  
+    - `models.py` – SQLAlchemy models  
+    - `schemas.py` – Pydantic schemas  
+    - `crud.py` – Database CRUD operations  
+    - `database.py` – DB connection setup  
+    - `ml_model.py` – Category prediction function  
+    - **models/**
+      - `tfidf.pkl` – Pre-trained TF-IDF model  
+  - **frontend/**
+    - **src/**
+      - `App.jsx` – Root React component  
+      - `ResumeUpload.jsx` – Resume upload component  
+      - `index.css` – Global styles  
+    - `package.json` – Frontend dependencies  
+  - `README.md` – Project documentation  
+
 
 
 ---
